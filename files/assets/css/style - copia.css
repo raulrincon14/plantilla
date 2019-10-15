@@ -54,7 +54,13 @@ a:focus, a:hover {
   text-decoration: none;
   color: #448aff;
 }
-
+.botona{
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  text-align: right;
+}
 h4 {
   font-size: 1.375rem;
 }
@@ -129,7 +135,21 @@ code {
 .card .card-header {
   background-color: transparent;
   border-bottom: none;
-  padding: 20px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  position: relative;
+  -webkit-box-shadow: 0px 1px 20px 0px rgba(69, 90, 100, 0.08);
+          box-shadow: 0px 1px 20px 0px rgba(69, 90, 100, 0.08);
+}
+.card .card-headerr {
+  background-color: transparent;
+  border-bottom: none;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   position: relative;
   -webkit-box-shadow: 0px 1px 20px 0px rgba(69, 90, 100, 0.08);
           box-shadow: 0px 1px 20px 0px rgba(69, 90, 100, 0.08);
@@ -192,7 +212,16 @@ code {
   height: 20px;
 }
 .card .card-block {
-  padding: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.card .card-blockr {
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
 }
 .card .card-block table tr {
   padding-bottom: 20px;
