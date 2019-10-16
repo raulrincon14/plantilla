@@ -64,8 +64,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-	color: #666666;
-	background: #fff;
+	color: #ffffff;
+	/*background: rgba(#120505, 0.82); RINCOSOFT - Eliminando el color del fondo del modal*/
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;

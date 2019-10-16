@@ -21343,7 +21343,9 @@ background-repeat: no-repeat;
   color: #37474f;
 }
 .pcoded[layout-type="dark"] select.form-control {
-  background-color: #41555e;
+ /*  background-color: #41555e; RINCOSOFT - Quitando fondo de select modo oscuro*/
+ background-color: rgba(3, 1, 2, 0.95);
+     color: green;
 }
 .pcoded[layout-type="dark"] .main-body .page-wrapper .page-header-title h4 {
   color: #fff;
