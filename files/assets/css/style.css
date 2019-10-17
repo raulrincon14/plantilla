@@ -9451,7 +9451,7 @@ RINCOSOFT - menu configuracion
   height: calc(100vh - 56px);
   border: 1px solid #e9e9e9;
   /*background: #FFF; CODIGO ORIGINAL*/
-  background: rgba(1, 0, 0, 0.92);
+  background: rgba(1, 0, 0, 0.88);
   position: fixed;
   margin: 0;
   padding: 20px;
@@ -21344,8 +21344,8 @@ background-repeat: no-repeat;
 }
 .pcoded[layout-type="dark"] select.form-control {
  /*  background-color: #41555e; RINCOSOFT - Quitando fondo de select modo oscuro*/
- background-color: rgba(3, 1, 2, 0.95);
-     color: green;
+ background-color: rgba(3, 1, 2, 0.92);
+     color: #ffffff;
 }
 .pcoded[layout-type="dark"] .main-body .page-wrapper .page-header-title h4 {
   color: #fff;
