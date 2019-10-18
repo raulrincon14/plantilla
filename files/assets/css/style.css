@@ -21344,9 +21344,20 @@ background-repeat: no-repeat;
 }
 .pcoded[layout-type="dark"] select.form-control {
  /*  background-color: #41555e; RINCOSOFT - Quitando fondo de select modo oscuro*/
- background-color: rgba(3, 1, 2, 0.92);
-     color: #ffffff;
+
+   background-color: rgba(1, 15, 15, 0.94) !important;
+   border-bottom-color: none;
+   border-top: none;
+   border-right: none;
+   color: white;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
 }
+.bootstrap-select.btn-group .dropdown-menu li a:hover {
+     color: whitesmoke !important;
+     background: #bf5279 !important;
+ }
 .pcoded[layout-type="dark"] .main-body .page-wrapper .page-header-title h4 {
   color: #fff;
 }
