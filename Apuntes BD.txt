@@ -1,0 +1,3 @@
+TABLA / ABREVIATURA     // Descripcion es igual descrip para todas las tablas.
+
+categoria / ca
